@@ -1,16 +1,16 @@
 // @ts-check
 
-import { MapOfRegexValidate } from "./MapOfRegexValidate";
+import { MapOfRegExpValidate } from "./MapOfRegExpValidate";
 
 /**
  * @param {Object} args
- * @param {MapOfRegexValidate | RegExp} args.regexp
+ * @param {MapOfRegExpValidate | RegExp} args.regExp
  * @param {string} args.stringToValidate
  * @return {boolean}
  */
 export const regexValidate = (args) => {
-    const { regexp = /[]/, stringToValidate = "" } = args;
-    const regexpValid = new RegExp(regexp);
+    const { regExp = /[]/, stringToValidate = "" } = args;
+    const regexpValid = new RegExp(regExp);
     const valuesOfRegexpValid = regexpValid.exec(stringToValidate);
 
     // Es necesaria esta validación por como funciona el metodo ".exec" de una expresión regular
