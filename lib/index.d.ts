@@ -1,3 +1,3 @@
-export { MapOfRegexValidate } from "./MapOfRegexValidate";
-export { regexValidate } from "./regexValidate";
+export { MapOfValidate as MapOfRegexValidate } from "./MapOfValidate";
+export { validate as regexValidate } from "./validate";
 //# sourceMappingURL=index.d.ts.map

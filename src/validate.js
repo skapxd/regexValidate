@@ -1,14 +1,14 @@
 // @ts-check
 
-import { MapOfRegExpValidate } from "./MapOfRegExpValidate";
+import { MapOfValidate } from "./MapOfValidate";
 
 /**
  * @param {Object} args
- * @param {MapOfRegExpValidate | RegExp} args.regExp
+ * @param {MapOfValidate | RegExp} args.regExp
  * @param {string} args.stringToValidate
  * @return {boolean}
  */
-export const regexValidate = (args) => {
+export const validate = (args) => {
     const { regExp = /[]/, stringToValidate = "" } = args;
     const regexpValid = new RegExp(regExp);
     const valuesOfRegexpValid = regexpValid.exec(stringToValidate);

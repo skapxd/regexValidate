@@ -1,4 +1,5 @@
-export class MapOfRegExpValidate extends RegExp {
+export class MapOfValidate extends RegExp {
     static email = /^\w+([\.-]?\w+)@\w+([\.-]?\w+)(\.\w{2,4})+/;
     static number = /[0-9]+/;
+
 }

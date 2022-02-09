@@ -1,5 +1,5 @@
 {
-    "name": "@skapxd/regex-validate",
+    "name": "@skapxd/validate",
     "version": "1.0.0",
     "description": "Value validation in modern format",
     "main": "lib/index.js",
