@@ -1,6 +1,6 @@
 {
     "name": "@skapxd/validate",
-    "version": "2.0.4",
+    "version": "2.0.5",
     "description": "Value validation in modern format",
     "main": "lib/index.js",
     "repository": {
